@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import AnimatedCounter from "@/components/AnimatedCounter";
 
 const rows = [
   { label: "NexusForge Swarm", value: 98, display: "98% Consensus Accuracy", hero: true },
@@ -22,6 +23,17 @@ export default function Benchmarks() {
           Factual Integrity <span className="text-gradient-swarm">Benchmarks</span>
         </motion.h2>
 
+        <div className="mb-16 flex items-end gap-4">
+          <AnimatedCounter
+            value={98}
+            suffix="%"
+            className="font-display text-7xl font-bold text-gradient-swarm sm:text-9xl"
+          />
+          <span className="mb-3 font-body text-lg text-white/50">
+            consensus accuracy vs single-model baselines
+          </span>
+        </div>
+
         <div className="flex flex-col gap-6">
           {rows.map((row, i) => (
             <div key={row.label} className="flex flex-col gap-2">
@@ -38,7 +50,7 @@ export default function Benchmarks() {
                   }}
                   className={`flex h-full items-center justify-end rounded-full px-5 ${
                     row.hero
-                      ? "bg-gradient-to-r from-swarm-dim to-swarm-core"
+                      ? "bg-gradient-to-r from-swarm-dim via-swarm-core to-aurora-cyan"
                       : "bg-slate-700/70"
                   }`}
                 >
