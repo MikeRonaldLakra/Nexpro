@@ -23,7 +23,7 @@ const points = [
 
 export default function JudgeNode() {
   return (
-    <section className="relative px-6 py-32 sm:py-40">
+    <section id="judge-node" className="relative px-6 py-32 sm:py-40">
       <div className="mx-auto grid max-w-6xl grid-cols-1 items-center gap-16 lg:grid-cols-2">
         <div>
           <span className="module-band coord-label mb-6 inline-block">
@@ -64,21 +64,21 @@ export default function JudgeNode() {
           <svg viewBox="0 0 300 300" className="h-3/4 w-3/4" aria-hidden="true">
             {/* Three worker nodes feeding into one judge node */}
             {[
-              [60, 60],
-              [240, 60],
-              [150, 60],
-            ].map(([x, y], i) => (
+              { pos: [60, 60], color: "#22D3EE" },
+              { pos: [240, 60], color: "#F472B6" },
+              { pos: [150, 60], color: "#FBBF24" },
+            ].map(({ pos: [x, y], color }, i) => (
               <g key={i}>
                 <line
                   x1={x}
                   y1={y}
                   x2={150}
                   y2={220}
-                  stroke="#8B5CF6"
+                  stroke={color}
                   strokeOpacity={0.35}
                   strokeWidth={1.5}
                 />
-                <circle cx={x} cy={y} r={10} fill="#3F2E6B" stroke="#B794FF" strokeWidth={1.5} />
+                <circle cx={x} cy={y} r={10} fill="#161619" stroke={color} strokeWidth={1.5} />
               </g>
             ))}
             <circle
