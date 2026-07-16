@@ -20,7 +20,7 @@ function LatencyCounter() {
   }, [springValue]);
 
   return (
-    <span ref={ref} className="font-display text-6xl font-bold text-gradient-swarm sm:text-7xl">
+    <span ref={ref} className="font-display text-6xl font-bold text-gradient-NodeBeta sm:text-7xl">
       350ms
     </span>
   );
@@ -52,7 +52,7 @@ export default function LiveMetrics() {
             System Telemetry
           </span>
           <h2 className="font-display text-4xl font-medium tracking-tight sm:text-5xl">
-            Live <span className="text-gradient-swarm">Metrics</span>
+            Live <span className="text-gradient-NodeBeta">Metrics</span>
           </h2>
         </div>
 
