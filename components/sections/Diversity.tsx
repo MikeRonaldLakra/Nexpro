@@ -20,7 +20,7 @@ export default function Diversity() {
       <div className="mx-auto grid max-w-5xl grid-cols-1 items-center gap-16 md:grid-cols-2">
         <div>
           <h2 className="mb-10 font-display text-4xl font-medium tracking-tight sm:text-5xl">
-            Orchestration <span className="text-gradient-swarm">Diversity</span>
+            Orchestration <span className="text-gradient-nodebeta">Diversity</span>
           </h2>
 
           <ul className="flex flex-col gap-4">
@@ -80,7 +80,7 @@ export default function Diversity() {
             </svg>
             <div className="absolute inset-0 flex flex-col items-center justify-center">
               <span className="font-display text-3xl font-bold">N=3+1</span>
-              <span className="coord-label mt-1">Swarm Nodes</span>
+              <span className="coord-label mt-1">NodeBeta Nodes</span>
             </div>
           </div>
         </div>
