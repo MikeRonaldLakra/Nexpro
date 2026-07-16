@@ -55,7 +55,7 @@ export default function Pillars() {
     <section className="relative px-6 py-32 sm:py-40">
       <div className="mx-auto max-w-6xl">
         <h2 className="mb-16 font-display text-4xl font-medium tracking-tight sm:text-5xl">
-          Core Engine <span className="text-gradient-swarm">Pillars</span>
+          Core Engine <span className="text-gradient-NodeBeta">Pillars</span>
         </h2>
 
         <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
