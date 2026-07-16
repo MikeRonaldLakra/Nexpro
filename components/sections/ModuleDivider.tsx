@@ -18,7 +18,7 @@ export default function ModuleDivider({
         whileInView={{ opacity: 1, scale: 1 }}
         viewport={{ once: true, margin: "-100px" }}
         transition={{ duration: 0.6 }}
-        className="mb-8 inline-block rounded-full bg-swarm-ghost px-6 py-2 font-mono text-xs uppercase tracking-[0.2em] text-swarm-bright"
+        className="mb-8 inline-block rounded-full bg-NodeBeta-ghost px-6 py-2 font-mono text-xs uppercase tracking-[0.2em] text-NodeBeta-bright"
       >
         {moduleLabel}
       </motion.span>
