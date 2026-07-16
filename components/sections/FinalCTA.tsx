@@ -22,7 +22,7 @@ export default function FinalCTA() {
         <motion.div
           animate={{ opacity: [0.3, 0.6, 0.3], scale: [1, 1.2, 1] }}
           transition={{ duration: 8, repeat: Infinity, ease: "easeInOut" }}
-          className="absolute left-1/2 top-1/2 h-[60vh] w-[60vh] -translate-x-1/2 -translate-y-1/2 rounded-full bg-swarm-core/25 blur-[140px]"
+          className="absolute left-1/2 top-1/2 h-[60vh] w-[60vh] -translate-x-1/2 -translate-y-1/2 rounded-full bg-nodebeta-core/25 blur-[140px]"
         />
       </div>
 
@@ -59,7 +59,7 @@ export default function FinalCTA() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.7, delay: i * 0.15, ease: [0.16, 1, 0.3, 1] }}
-            className="font-display text-4xl font-bold tracking-tight text-gradient-swarm sm:text-6xl"
+            className="font-display text-4xl font-bold tracking-tight text-gradient-nodebeta sm:text-6xl"
           >
             {line}
           </motion.h2>
@@ -75,7 +75,7 @@ export default function FinalCTA() {
       >
         <MagneticButton
           href="#capabilities"
-          className="inline-block rounded-full bg-gradient-to-r from-swarm-core to-aurora-cyan px-10 py-4 font-body text-sm font-medium text-void shadow-[0_0_50px_-10px_rgba(139,92,246,0.9)]"
+          className="inline-block rounded-full bg-gradient-to-r from-nodebeta-core to-aurora-cyan px-10 py-4 font-body text-sm font-medium text-void shadow-[0_0_50px_-10px_rgba(139,92,246,0.9)]"
         >
           Start Building
         </MagneticButton>
@@ -83,7 +83,7 @@ export default function FinalCTA() {
           href="#"
           className="inline-block rounded-full border border-white/15 px-10 py-4 font-body text-sm font-medium text-white/80"
         >
-          Launch NexusForge
+          Launch LilMik
         </MagneticButton>
       </motion.div>
     </section>
