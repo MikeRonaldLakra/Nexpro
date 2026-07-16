@@ -9,11 +9,11 @@ export default function FidelityChart() {
     <section className="relative px-6 py-32 sm:py-40">
       <div className="mx-auto max-w-4xl">
         <h2 className="mb-4 font-display text-4xl font-medium tracking-tight sm:text-5xl">
-          Fidelity <span className="text-gradient-swarm">Convergence</span>
+          Fidelity <span className="text-gradient-nodebeta">Convergence</span>
         </h2>
 
         <div className="relative mt-16">
-          <span className="absolute -top-6 left-0 font-body text-sm font-semibold text-swarm-bright">
+          <span className="absolute -top-6 left-0 font-body text-sm font-semibold text-nodebeta-bright">
             99.9% Fidelity
           </span>
 
