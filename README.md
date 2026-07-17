@@ -1,7 +1,7 @@
-# NexusForge — Swarm AI Engine
+# LilMik — NodeBeta AI Engine
 
-Cinematic single-page marketing site for **NexusForge** and its flagship
-product, the **Swarm AI Engine**. Built as a scroll-driven experience with a
+Cinematic single-page marketing site for **LilMik** and its flagship
+product, the **NodeBeta AI Engine**. Built as a scroll-driven experience with a
 persistent 3D particle background, GSAP-pinned storytelling, and animated
 data visualizations pulled from the product architecture briefing.
 
