@@ -77,13 +77,13 @@ export default function FinalCTA() {
           href="#capabilities"
           className="inline-block rounded-full bg-gradient-to-r from-nodebeta-core to-aurora-cyan px-10 py-4 font-body text-sm font-medium text-white shadow-[0_0_50px_-10px_rgba(139,92,246,0.9)]"
         >
-          Start Building
+          LilMik
         </MagneticButton>
         <MagneticButton
           href="#"
           className="inline-block rounded-full border border-white/15 px-10 py-4 font-body text-sm font-medium text-white/80"
         >
-          Launch LilMik
+          NodeBeta
         </MagneticButton>
       </motion.div>
     </section>
