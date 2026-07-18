@@ -2,8 +2,7 @@
 
 import { motion } from "framer-motion";
 
-// Dogstudio's signature move: headline letters spaced out and revealed one
-// by one, rather than a simple line fade — reads as kinetic typography.
+
 const HEADLINE = "Architecting the Future of Intelligence";
 
 const container = {
