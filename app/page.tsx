@@ -24,7 +24,7 @@ import ComparisonTable from "@/components/sections/ComparisonTable";
 import Founder from "@/components/sections/Founder";
 import FinalCTA from "@/components/sections/FinalCTA";
 
-// The R3F canvas touches window/WebGL — keep it out of the server bundle.
+
 const NodeBetaCanvas = dynamic(() => import("@/components/NodeBetaCanvas"), {
   ssr: false,
 });
