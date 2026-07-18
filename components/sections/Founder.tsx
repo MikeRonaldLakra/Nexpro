@@ -42,7 +42,7 @@ export default function Founder() {
          
          {/* Replaced Monogram with Photo */}
 <img 
-  src="Screenshot 2026-07-17 055621.png" /* Replace with your actual image file path */
+  src="Screenshot 2026-07-17 055621.png"
   alt="Mike Ronald Lakra" 
   className="relative z-10 h-full w-full object-cover" 
 />
