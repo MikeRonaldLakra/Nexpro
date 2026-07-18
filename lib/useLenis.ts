@@ -3,11 +3,6 @@
 import { useEffect } from "react";
 import Lenis from "lenis";
 
-/**
- * Wires up Lenis smooth scrolling and syncs it with GSAP's ScrollTrigger
- * (if present) so pinned/scrubbed animations stay perfectly in step with
- * the eased scroll position instead of the raw, jumpy native scroll.
- */
 export function useLenis() {
   useEffect(() => {
     const lenis = new Lenis({
@@ -23,8 +18,6 @@ export function useLenis() {
     }
     rafId = requestAnimationFrame(raf);
 
-    // Lazily sync with GSAP ScrollTrigger only if it's been loaded by a
-    // section on the page — keeps this hook usable even without GSAP.
     (async () => {
       try {
         const { gsap } = await import("gsap");
@@ -36,7 +29,7 @@ export function useLenis() {
         });
         gsap.ticker.lagSmoothing(0);
       } catch {
-        // GSAP not needed on this page — Lenis still works standalone.
+        
       }
     })();
 
