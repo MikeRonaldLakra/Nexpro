@@ -1,10 +1,6 @@
 "use client";
 
-/**
- * Continuous, non-stop horizontal ticker. Unlike scroll-triggered reveals,
- * this animates independently of scroll — a constant-motion band that reads
- * as "alive" the moment the page loads, a common Awwwards signature.
- */
+
 export default function Marquee({
   items,
   speed = 28,
