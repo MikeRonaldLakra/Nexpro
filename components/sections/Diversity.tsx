@@ -3,9 +3,9 @@
 import { motion } from "framer-motion";
 
 const segments = [
-  { label: "Reasoning Core (GPT-4o)", value: 30, color: "#B794FF" },
-  { label: "Linguistic Context (Claude 3.5)", value: 28, color: "#8B5CF6" },
-  { label: "Semantic Breadth (Gemini 1.5)", value: 24, color: "#5B3FA0" },
+  { label: "Reasoning Core (Flagship AI model)", value: 30, color: "#B794FF" },
+  { label: "Linguistic Context (Flagship AI model)", value: 28, color: "#8B5CF6" },
+  { label: "Semantic Breadth (Flagship AI model)", value: 24, color: "#5B3FA0" },
   { label: "Synthesis Node (Proprietary)", value: 18, color: "#334155" },
 ];
 
