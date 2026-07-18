@@ -3,11 +3,7 @@
 import { useRef } from "react";
 import { motion, useMotionValue, useSpring, useTransform } from "framer-motion";
 
-/**
- * Wraps any card content with a real perspective tilt that follows the
- * cursor, plus a specular highlight that moves with it. Meant to replace
- * flat "translateY on hover" cards with something that reads as physical.
- */
+
 export default function TiltCard({
   children,
   className = "",
